@@ -1,0 +1,57 @@
+.distanzia/*10*/
+{
+    margin-top: 1500px;
+}
+
+#sfondo/*100*/
+{
+    background-image: url("../img/sfondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00141c;
+}
+
+.divisore/*10*/
+{
+  border: 0.5px black solid;
+}
+
+#titolo/*100*/
+{
+  background-color: purple;
+}
+
+#nav-tabContent/*100*/
+{
+  height: 300px;
+}
+
+#maschio/*100*/
+{
+  color: #007bff;
+  background-color: white;
+  transition: 500ms;
+  border-bottom: 1px solid;
+}
+
+#maschio.active/*110*/
+{
+  background-color: #007bff;
+  color: white;
+  transition: 500ms;
+}
+
+#femmina/*100*/
+{
+  color: deeppink;
+  background-color: white;
+  transition: 500ms;
+  border-bottom: 1px solid;
+}
+
+#femmina.active/*110*/
+{
+  background-color: deeppink;
+  color: white;
+  transition: 500ms;
+}

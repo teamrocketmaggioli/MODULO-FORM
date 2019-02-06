@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form esercizio 2</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <!--Font AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/stli.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+    <script src="js/Script.js"></script>
+
+</head>
+
+<body id="sfondo">
+    <h1 class="d-flex justify-content-center border border-secondary p-3 text-white" id="titolo">Modulo di
+        registrazione</h1>
+    <div class="container bg-white border border-secondary pt-3 mt-3 rounded">
+
+
+        <form>
+            <div class="form-group row">
+                <label for="nome" class="col-sm-4">Nome e cognome</label>
+                <div class="offset-sm-1 col-sm-7">
+                    <input type="text" class="form-control border" id="nome" required>
+                    <small id="smallnome" class="form-text text-danger"></small>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="reddito" class="col-sm-4">Reddito</label>
+                <div class="offset-sm-1 col-sm-7">
+                    <select id="reddito" class="form-control">
+                        <option selected="">0-25.000</option>
+                        <option>25.000-50.000</option>
+                        <option>50.000-75.000</option>
+                        <option>Oltre 75.000</option>
+                    </select>
+                    <small id="smallreddito" class="form-text text-muted"></small>
+                </div>
+            </div>
+            <div class="form-group row">
+
+                <label for="sesso" class="col-sm-4">Sesso</label>
+                <div class="offset-sm-1 col-sm-7">
+                    <select id="sesso" class="form-control">
+                        <option selected="" value="maschio">Maschio</option>
+                        <option value="femmina">Femmina</option>
+
+                    </select>
+                    <small id="smallsesso" class="form-text text-muted"></small>
+                </div>
+            </div>
+        </form>
+        <div class="container">
+            <div class="row">
+                <button class="btn btn-outline-secondary offset-sm-9 col-sm-3" id="invia">Invia</button>
+            </div>
+        </div>
+        <div class="mb-3 h-25">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link show active" id="maschio" data-toggle="tab" role="tab" aria-controls="nav-home"
+                        aria-selected="true" value="maschio" href="#">Maschio <i class="fas fa-mars"></i></a>
+                    <a class="nav-item nav-link show" id="femmina" data-toggle="tab" href="#" role="tab" aria-controls="nav-profile"
+                        aria-selected="false" value="femmina">Femmina <i class="fas fa-venus"></i></a>
+
+                </div>
+            </nav>
+
+            <div class="tab-content p-3 pre-scrollable border" id="nav-tabContent" scrollable>
+                <div class="tab-pane fade show active" id="stampa" role="tabpanel"
+                    aria-labelledby="nav-home-tab"></div>
+                <div class="tab-pane fade" role="tabpanel" aria-labelledby="nav-profile-tab"></div>
+
+            </div>
+            <div class='content border pl-3' id="totale"><strong>Totale maschi:</strong> 0</div>
+        </div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+</body>
+
+</html>
